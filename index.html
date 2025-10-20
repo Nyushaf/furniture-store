@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир мебели</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Furniture world</h1>
+    </div>
+    <div class="box">
+        <div class="opening">
+            <p class="count">Don't miss the opening!</p>
+        </div>
+        <div class="containerBox">
+
+            <div class="christmas">
+                <div class="block">
+                    <h2 class="days"></h2>
+                    <h3>DAYS</h3>
+                </div>
+            </div>
+            <br>
+
+            <div class="christmas">
+                <div class="block">
+                    <h2 class="hours"></h2>
+                    <h3>HOURS</h3>
+                </div>
+            </div>
+            <br>
+
+            <div class="christmas">
+                <div class="block">
+                    <h2 class="minutes"></h2>
+                    <h3>MINUTES</h3>
+                </div>
+            </div>
+            <br>
+
+            <div class="christmas">
+                <div class="block">
+                    <h2 class="seconds"></h2>
+                    <h3>SECONDS</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="one item selected">
+            <h4>Besta</h4>
+            <p class="par">interchangeable sictional sofa-bed with storage</p>
+            <p class="price">5000$</p>
+        </div>
+        <div class="two item">
+            <h4>Belgaria</h4>
+            <p class="par">sofa-bed with memory foam mattress</p>
+            <p class="price">2000$</p>
+        </div>
+        <div class="three item">
+            <h4>Shean</h4>
+            <p class="par">ideal size for condo living, with a rich and vibrant grey colour</p>
+            <p class="price">2100$</p>
+        </div>
+        <div class="four item">
+            <h4>Foadien</h4>
+            <p class="par">sturdy drawer construction with full access to the drawer interiors</p>
+            <p class="price">1000$</p>
+        </div>
+        <div class="five item">
+            <h4>Family</h4>
+            <p class="par">the rich style design of this collection exemplifies elegance</p>
+            <p class="price">2500$</p>
+        </div>
+        <div class="six item">
+            <h4>Rihanna</h4>
+            <p class="par">tufted velvet headboard and footboard provide cocoon-like comfort and luxury</p>
+            <p class="price">4500$</p>
+        </div>
+    </div>
+    <div class="header">
+        <h3 class="message">Send us a message!</h3>
+    </div>
+
+    <form
+    action="https://formspree.io/f/xeqdaqlg"
+    method="POST">
+    
+    <input type="hidden" name="_language" value="en" />
+    
+    <div class="header">
+        <label>
+            Your email:
+            <input type="email" class="input-text" name="email" placeholder="Your email..." required="">
+        </label>
+    </div>
+    <div class="header">
+        <label>
+            Your message:
+            <textarea class="input-text" name="message" placeholder="Type your massage..." required=""></textarea>
+        </label>
+    </div>
+    <br>
+    <div class="header">
+        <button class="btn" type="submit">Send</button>
+    </div>
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>
