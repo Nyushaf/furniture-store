@@ -13,7 +13,7 @@ items.forEach(item => {
 })
 
 function openingCountdown() {
-    const christmasDate = new Date ("September 25, 2022 8:00");
+    const christmasDate = new Date ("September 25, 2026 8:00");
     const nowDay = new Date ();
     const diff = christmasDate - nowDay;
     const msInSec = 1000;
